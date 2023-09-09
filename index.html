@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo favorito</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+
+<body id="bodyBackground">
+    <header class="cabecalho">
+        <!--Vamos criar um menu com tag <ul>-->
+        <!--Vamos criar os itens desse menu também-->
+        <div class="menu">
+            <ul>
+                <li class="links">
+                    <a href="#inicio">Início</a>
+                </li>
+
+                <li class="links">
+                    <a href="#curiosidades">Curiosidades</a>
+                </li>
+
+                <li class="links">
+                    <a href="#projetos">Projetos de proteção</a>
+                </li>
+
+                <li class="links">
+                    <a href="#galeria">Galeria de fotos</a>
+                </li>
+
+                <li class="links">
+                    <a href="#contato">Contato</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+
+        <img id="fotoInicio" src="Design sem nome.svg" id="imagemInicio" onclick="clique()">
+        <br>
+        <div class="container">
+            <section id="inicio">
+                <h1 class="tituloPrincipal">Capibaras, as amigas do Marcelo!</h1>
+                <button onclick="clique()" id="button1">Clique em mim</button>
+                <br>
+                <h2 class="subtitulos">Conheça sobre as capivaras</h2>
+                <p class="textos">Vivem principalmente na america do sul e é um animal semi-aquatico</p>
+                <br>
+                <h1 class="palavras"><strong>Um vídeo</strong></h1>
+                <p class="textos">ALGUM TEXTO</p>
+                <br>
+
+                <section id="curiosidades">
+                    <h2 class="subtitulos">Curiosidades</h2>
+                    <p class="textos">O nome cientifico da capivara e "Hydrochoerus hydrochaeris"</p>
+                    <p class="textos">São animais muitos sociáveis</p>
+                    <!--Pegar o video do youtube-->
+                </section>
+
+            </section>
+            <section id="galeria">
+                <h2 class="subtitulos">Galeria de Fotos</h2>
+            </section>
+
+            <section id="projetos">
+                <h2 class="subtitulos">Projetos de proteção</h2>
+
+                <!--Acesse o site "https://sema.df.gov.br/projeto-capivaras-entrevista-moradores-da-orla-do-lago/"   -->
+                <!--Usar tag video e seus controles-->
+                <video src="capibara.mp4" controls></video>
+            </section>
+
+        </div>
+        <footer>
+            <section id="contato">
+                <h2 class="subtitulos">Contato</h2>
+                <!--Incorporar um mapa-->
+                <h2>Textos</h2>
+                <!--Importar os ícones para suas redes sociais-->
+                <h2>Mais alguma coisa</h2>
+                <!--Colocar uma imagem sua, redonda.-->
+                <h2>Mais alguma coisinha</h2>
+            </section>
+        </footer>
+
+    </main>
+</body>
+
+</html>
